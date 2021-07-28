@@ -1,0 +1,355 @@
+/* 动画 */
+@keyframes move {
+    0%, 5% {
+        left: 0;
+    }
+    20%, 30% {
+        left: -1200px;
+    }
+    50%, 60% {
+        left: -2400px
+    }
+    75%, 85% {
+        left: -3600px;
+    }
+    100% {
+        left: -4800px;
+    }
+}
+@keyframes flag {
+    0%, 5% {
+        left: 0;
+    }
+    20%, 35% {
+        left: 25px;
+    }
+    50%, 60% {
+        left: 50px
+    }
+    75%, 85% {
+        left: 75px;
+    }
+    100% {
+        /* left: -4800px; */
+    }
+}
+/* 轮播图部分 */
+
+.under {
+    position: relative;
+    margin-top: 105px;
+    height: 505px;
+    background: url(../upload/under1.jpg) no-repeat;
+    overflow: hidden;
+}
+.under_index {
+    position: relative;
+    width: 6000px;
+    animation: move 15s infinite linear;
+}
+.under_index li {
+    float: left;
+}
+.under .under_father {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+.under .under_father ul li,
+.flag {
+    margin-right: 10px;
+    border-radius: 100%;
+    float: left;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+}
+.flag {
+    background-color: red;
+    position: relative;
+    margin-top: -15px;
+    animation: flag 15s infinite steps(1);
+}
+
+/* .under .under_father ul li:hover {
+    background-color: red;
+} */
+/* 明星部分 */
+
+.star {
+    margin-top: 35px;
+}
+
+.boxstar {
+    height: 245px;
+    text-align: center;
+}
+
+.boxstar .startitle {
+    height: 35px;
+}
+
+.boxstar .startitle h1 {
+    font-size: 33px;
+    line-height: 35px;
+    color: black;
+}
+
+.starimg ul li {
+    margin-top: 30px;
+    float: left;
+    height: 180px;
+    width: 200px;
+}
+
+.starimg ul li img {
+    transition: all .2s;
+    width: 115px;
+    border-radius: 50%;
+}
+
+.starimg ul li p {
+    margin-top: 25px;
+    font-size: 18px;
+    color: black;
+    transition: all .2s;
+}
+
+.starimg a:hover img {
+    transform: scale(1.3);
+    /* border-radius: 50%; */
+    box-shadow: 5px 5px 8px #BFBFBF;
+}
+
+.starimg a:hover p {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+/* 商店部分 */
+.shop {
+    margin-top: 20px;
+    height: 695px;
+    /* background-color: red; */
+}
+.shoptitle {
+    height: 100px;
+    /* background-color: chartreuse; */
+}
+.shoptitle h1 {
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+    line-height: 100px;
+}
+.shopfather {
+    width: 1200px;
+    height: 595px;
+    /* border: 1px solid blueviolet; */
+}
+.shopleft {
+    float: left;
+    width: 600px;
+    height: 588px;
+    /* background-color: aqua; */
+}
+.shopleft:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+.shopleft img {
+    height: 590px;
+    width: 600px;
+}
+.shopright li {
+    /* transition: all 0.3s; */
+    text-align: center;
+    border: 1px solid #DCDCDC;
+    /* border-top: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC; */
+    float: left;
+    width: 299px;
+    height: 296px;
+    /* background-color: darkgreen; */
+}
+.shopright li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+/* .shopright li:hover {
+    box-shadow: 1px 1px 15px #DCDCDC;
+    z-index: 2;
+} */
+/* .shopright ul li:hover { */
+    /* z-index: 1; */
+    /* box-shadow: 0px 0px 0px 5px red; */
+    /* border: 1px solid red; */
+/* } */
+.shopright li:nth-child(odd) {
+    /* border-left-width: 0; */
+    border-right-width: 0;
+    border-left-width: 0;
+}
+/* .shopright ul li:nth-child(3) {
+    border-bottom: 1px solid #DCDCDC;
+}
+.shopright ul li:nth-child(4) {
+    border-bottom: 1px solid #DCDCDC;
+} */
+/* .shopleft:hover {
+    box-shadow: -1px -1px 15px #DCDCDC;
+} */
+.shopright li img {
+    margin-top: 10px;
+    /* text-align: center; */
+    /* overflow: hidden; */
+    width: 90%;
+    /* height: 232px; */
+    line-height: 295px;
+}
+
+/* 迪士尼资讯 */
+.information .mationtitile{
+    height: 100px;
+}
+.mationtitile h1 {
+    font-size: 35px;
+    color: #000;
+    text-align: center;
+    line-height: 100px;
+}
+.mationbox {
+    height: 700px;
+    /* background-color: red; */
+}
+.mationleft {
+    float: left;
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.mationleft:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+.mationtxt {
+    padding: 40px 45px;
+}
+.mationtxt h1 {
+    color: #333;;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.mationtxt p {
+    /* color: #333; */
+    font-size: 14px;
+}
+.mationright ul li {
+    float: left;
+    width: 300px;
+    height: 475px;
+    /* background-color: khaki; */
+}
+.mationright ul li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+
+}
+.righttxt {
+    padding: 33px 30px;
+}
+.righttxt h1 {
+    margin-bottom: 10px;
+    color: #333;
+    font-size: 17px;
+}
+.sonthree {
+    height: 225px;
+    width: 600px;
+    float: left;
+}
+.sonthree .sonimg img {
+    float: left;
+    width: 228px;
+}
+.sonthree .sontxt {
+    float: left;
+    width: 372px;
+    height: 225px;
+    /* background-color: blue; */
+    /* margin-top: 20px; */
+    padding: 20px 30px;
+}
+.sonthree .sontxt h1 {
+    color: #333;
+    line-height: 35px;
+    font-size: 30px;
+    font-weight: 7000;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+.sonthree .sontxt p {
+    font-size: 14px;
+}
+.sonthree:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+}
+.iconImg {
+    display: block;
+    float: left;
+    width: 14px;
+    height: 14px;
+    /* background-color: red; */
+    background: url(../images/icon.png) no-repeat;
+    background-position: -48px -102px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.floatOne {
+    margin-top: -15px;
+    margin-left: 92px;
+}
+.floatTwo {
+    margin-top: -15px;
+    margin-left: 70px;
+}
+.floatP {
+    float: left;
+}
+
+/* 商品js部分 */
+.showImg{
+    width: 600px;
+    height: 592px;
+    border: 1px solid #DCDCDC;
+    box-sizing: border-box;
+    z-index: 5;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-color: #fff;
+    background-position: 50%;
+}
+
+/* 展示部分 */
+.showProject {
+    position: fixed;
+    width: 80px;
+    height: 30px;
+    /* background-color: red; */
+    line-height: 30px;
+    top: 25%;
+    left: 50%;
+    margin-left: 620px;
+    text-align: center;
+}
+.showProject a {
+    text-align: center;
+    display: block;
+    width: 120px;
+    height: 40px;
+    margin-bottom: 14px;
+    line-height: 40px;
+    /* background-color: aqua; */
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .4);
+}

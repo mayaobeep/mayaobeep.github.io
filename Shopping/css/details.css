@@ -1,0 +1,43 @@
+.w {
+	width: 1200px;
+	margin: auto;
+}
+/* 字体集体声明 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?vba1lt');
+    src:  url('../fonts/icomoon.eot?vba1lt#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?vba1lt') format('truetype'),
+      url('../fonts/icomoon.woff?vba1lt') format('woff'),
+      url('../fonts/icomoon.svg?vba1lt#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  
+/* 导航栏 */
+.nav {
+	height: 30px;
+	background-color: #f1f1f1;
+	line-height: 30px;
+}
+#left {
+	float: left;
+}
+#right {
+	float: right;
+}
+#right a {
+	padding: 15px;
+}
+
+.logo img {
+	padding-top: 25px;
+	float: left;
+}
+.shousuo {
+	width: 455px;
+	height: 34px;
+	border-radius: 2px red solid;
+}

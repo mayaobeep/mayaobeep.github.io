@@ -1,0 +1,146 @@
+.sk {
+    position: absolute;
+    left: 185px;
+    top: 40px;
+    height: 32px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 0 14px;
+}
+.sk_list {
+    float: left;
+}
+.sk_list ul li {
+    float: left;
+    line-height: 47px;
+}
+.sk_list ul li a {
+    margin: 0 30px;
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+}
+.sk_con {
+    float: left;
+}
+.sk_con ul li {
+    float: left;
+    line-height: 50px;
+    color: #666;
+}
+.sk_con ul li a {
+    margin: 0 22px;
+    font-size: 12px;
+}
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: '\e96a';
+    padding-left: 5px;
+}
+.nav {
+    overflow: hidden;
+}
+.sk_bd ul li {
+    border: 1px solid #cccccc;
+    float: left;
+    background-color: #fff;
+    width: 289px;
+    height: 475px;
+    margin-right: 13px;
+    /* border: 1px solid pink; */
+    /* text-align: center; */
+    margin-bottom: 15px;
+    /* overflow: hidden; */
+}
+.sk_bd ul li:hover {
+    border: 1px solid #e12228;
+}
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.phto img {
+    margin-top: 10px;
+    margin-left: 4px;
+    margin-bottom: 10px;
+}
+.xinxi {
+    padding-left: 12px;
+    margin-bottom: 29px;
+}
+.xinxi p {
+    font-size: 13px;
+    color: #666;
+}
+.xinxi h1 {
+    /* padding-top: 10px; */
+    /* height: 50px; */
+    font-size: 22px;
+    color: #e60012;
+}
+.xinxi h1::before {
+    content: '￥';
+    /* padding-right: 0; */
+    font-size: 14px;
+}
+.xinxi h1::after {
+    content: '￥6988';
+    font-size: 14px;
+    color: #a4a4a4;
+    text-decoration: line-through;
+}
+.time_sk {
+    position: relative;
+    /* float: left; */
+    height: 13px;
+    width: 260px;
+    /* background-color: slateblue; */
+}
+/* .text_1 {
+    display: block;
+    width: 50px;
+    height: 13px;
+    background-color: tomato;
+} */
+.text_1 {
+    position: absolute;
+    left: 8px;
+    top: 9px;
+}
+.text_2 {
+    position: absolute;
+    left: 209px;
+    top: 9px;
+}
+.time {
+    position: absolute;
+    left: -4px;
+    top: 11px;
+    width: 133px;
+    height: 12px;
+    border: 1px solid #e12228;
+    border-radius: 25px;
+    margin-left: 70px;
+}
+.time_2 {
+    width: 88px;
+    height: 9px;
+    background-color: #ed282e;
+    border-radius: 25px;
+}
+/* .time::before {
+    content: '已售87%';
+}
+.time::after {
+    content: '';
+} */
+.anniu {
+    height: 50px;
+    background-color: #b1191a;
+    text-align: center;
+}
+.anniu a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    line-height: 50px;
+    text-align: left;
+}

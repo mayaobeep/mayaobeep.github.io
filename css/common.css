@@ -1,0 +1,246 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    height: 1500px;
+}
+
+
+/* 导航栏部分 */
+.outnav {
+    margin: auto;
+    height: 100px;
+    width: 100%;
+    background-color: #ED020E;
+}
+.nav {
+    width: 1650px;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -620px;
+    height: 100px;
+    /* background-color: skyblue; */
+    background: white;
+}
+
+.nav ul {
+    margin-left: 40px;
+}
+
+.nav ul li {
+    float: left;
+    line-height: 100px;
+}
+
+
+/* .nav ul li img {
+    vertical-align: middle;
+    padding-right: 6px;
+} */
+
+.nav ul li a {
+    padding: 0 34px;
+    font-size: 16px;
+    color: black;
+}
+
+
+/* a图标位置与大小 */
+
+.nav ul li a::before {
+    /* padding-top: -3; */
+    display: inline-block;
+    vertical-align: middle;
+    content: '';
+    width: 22px;
+    height: 20px;
+    background-color: aqua;
+    margin: 10px;
+    background: url(../images/icon.png) no-repeat 0 0;
+}
+
+.nav ul li:nth-child(2) a::before {
+    content: '';
+    background-position: 0 -20px;
+}
+
+.nav ul li:nth-child(3) a::before {
+    content: '';
+    height: 25px;
+    background-position: 0 -39px;
+}
+
+.nav ul li:nth-child(5) a::before {
+    content: '';
+    width: 22px;
+    height: 17px;
+    background-position: 0 -63px;
+}
+
+.nav ul li:nth-child(6) a::before {
+    content: '';
+    height: 22px;
+    background-position: 0 -80px;
+}
+
+.nav ul li:nth-child(7) a::before {
+    content: '';
+    background-position: -41px -317px;
+}
+
+.nav ul li:nth-child(4) a::before {
+    content: '';
+    width: 0;
+    height: 0;
+}
+/* .nav ul li:nth-child(4) { */
+    /* width: 200px;
+    height: 50px; */
+/* } */
+.nav ul li:nth-child(4) img {
+    /* width: 100%; */
+    /* height: auto; */
+    margin-left: -30px;
+}
+
+.nav ul li:nth-child(2) i::before {
+    content: '';
+}
+
+
+/* 点击a */
+
+.nav ul li a:active {
+    color: red;
+}
+
+.nav ul li a:active::before {
+    background-position: -22px 0;
+}
+
+.nav ul li:nth-child(2) a:active::before {
+    content: '';
+    background-position: -22px -20px;
+}
+
+.nav ul li:nth-child(3) a:active::before {
+    content: '';
+    background-position: -22px -39px;
+}
+
+.nav ul li:nth-child(5) a:active::before {
+    content: '';
+    background-position: -22px -63px;
+}
+
+.nav ul li:nth-child(6) a:active::before {
+    content: '';
+    background-position: -22px -80px;
+}
+
+.nav ul li:nth-child(7) a:active::before {
+    content: '';
+    background-position: -41px -295px;
+}
+
+.style_red {
+    color: #ED020E;
+}
+
+
+/* 页脚部分 */
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.footerbox {
+    margin: 0 auto;
+    height: 230px;
+    width: 495px;
+    /* background-color: yellow; */
+}
+
+.footertop {
+    height: 130px;
+    border-bottom: 1px solid #DCDCDC;
+    /* background-color: #ED020E; */
+}
+.lefttop {
+    float: left;
+    width: 170px;
+    height: 130px;
+    /* background-color: aqua; */
+    text-align: center;
+    line-height: 130px;
+    /* border-right: 1px solid black; */
+}
+.lefttop img {
+    /* height: 65px; */
+    width: 140px;
+    /* background-color: green; */
+    border-right: 1px solid #DCDCDC;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+.righttop ul li:first-child {
+    margin-left: 15px;
+}
+.righttop ul li {
+    padding-top: 15px;
+    float: left;
+    width: 135px;
+    height: 130px;
+    /* background-color: fuchsia; */
+    /* margin-left: 5px; */
+    /* line-height: 130px; */
+}
+.righttop ul li img {
+    margin-bottom: 8px;
+}
+.righttop ul li p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+
+.footerbottom {
+    margin-top: 22px;
+}
+.footerbottom ul li {
+    float: left;
+    margin-bottom: 10px;
+    
+}
+.footerbottom ul li a {
+    padding: 0 22px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #333;
+}
+.footerbottom p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.footerbottom p a {
+    color: #333;
+}
+.footerbottom span a {
+    color: #333;
+}
+.footerbottom span img {
+    width: 21px;
+}
+/* .footerbottom .xuke::before {
+    display: inline-block;
+    content: '';
+    margin-right: 5px;
+    width: 21px;
+    height: 21px;
+    background: url(../images/NewYYZZ.png) no-repeat center center;
+} */
